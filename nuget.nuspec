@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>Afx.Data.SQLite.Entity</id>
-    <version>13.1.3</version>
+    <version>13.2.2</version>
     <authors>jerrylai</authors>
     <owners>jerrylai</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -12,16 +12,22 @@
     <tags>SQLite EF</tags>
     <dependencies>
       <group targetFramework=".NETFramework4.0">
-        <dependency id="Afx.Data.Entity" version="13.1.3" />
-        <dependency id="Afx.Data" version="10.0.0" />
+        <dependency id="Afx.Data.Entity" version="13.2.2" />
+        <dependency id="Afx.Data" version="10.1.0" />
         <dependency id="System.Data.SQLite.Core" version="1.0.112.2" />
         <dependency id="System.Data.SQLite.EF6" version="1.0.112.2" />
       </group>
       <group targetFramework=".NETStandard2.0">
-        <dependency id="Afx.Data.Entity" version="13.1.3" />
-        <dependency id="Afx.Data" version="10.0.0" />
-        <dependency id="Microsoft.Data.Sqlite.Core" version="3.1.3" />
-        <dependency id="Microsoft.EntityFrameworkCore.Sqlite.Core" version="3.1.3" />
+        <dependency id="Afx.Data.Entity" version="13.2.2" />
+        <dependency id="Afx.Data" version="10.1.0" />
+        <dependency id="Microsoft.Data.Sqlite.Core" version="3.1.12" />
+        <dependency id="Microsoft.EntityFrameworkCore.Sqlite.Core" version="3.1.12" />
+      </group>
+	  <group targetFramework=".NETStandard2.1">
+        <dependency id="Afx.Data.Entity" version="13.2.2" />
+        <dependency id="Afx.Data" version="10.1.0" />
+        <dependency id="Microsoft.Data.Sqlite.Core" version="5.0.3" />
+        <dependency id="Microsoft.EntityFrameworkCore.Sqlite.Core" version="5.0.3" />
       </group>
     </dependencies>
   </metadata>
